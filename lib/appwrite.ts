@@ -1,4 +1,11 @@
-import { Account, Avatars, Client, Databases, ID } from "react-native-appwrite";
+import {
+  Account,
+  Avatars,
+  Client,
+  Databases,
+  ID,
+  Query,
+} from "react-native-appwrite";
 
 export const config = {
   endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
@@ -39,12 +46,13 @@ export const createUser = async (
       ID.unique(),
       {
         accountId: newAccount.$id,
-        email,
-        username,
-        password,
-        avatarUrl,
+        email: email,
+        username: username,
+        avatar: avatarUrl,
       }
     );
+    if (!newUser) throw new Error("User not created");
+    console.log(newUser);
     return newUser;
   } catch (error: any) {
     console.error(error);
@@ -58,5 +66,20 @@ export const signIn = async (email: string, password: string) => {
   } catch (error: any) {
     console.error(error);
     throw new Error(error);
+  }
+};
+export const getCurrentUser = async () => {
+  try {
+    const currentAccount = await account.get();
+    if (!currentAccount) throw new Error("Account not found");
+    const currentUser = await databases.listDocuments(
+      config.databaseId!,
+      config.userCollectionId!,
+      [Query.equal("accountId", currentAccount.$id)]
+    );
+    if (!currentUser) throw new Error("User not found");
+    return currentUser.documents[0];
+  } catch (error) {
+    console.log(error);
   }
 };
