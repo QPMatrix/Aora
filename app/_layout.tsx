@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { SplashScreen, Stack } from "expo-router";
 import { useFonts } from "expo-font";
 import { GlobalProvider } from "@/context/global-context";
+import { StatusBar } from "expo-status-bar";
 SplashScreen.preventAutoHideAsync();
 const RootLayout = () => {
   const [fontsLoaded, error] = useFonts({
@@ -35,6 +36,7 @@ const RootLayout = () => {
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="search/[query]" options={{ headerShown: false }} />
       </Stack>
+      <StatusBar style="light" backgroundColor="#161622" />
     </GlobalProvider>
   );
 };

@@ -83,3 +83,28 @@ export const getCurrentUser = async () => {
     console.log(error);
   }
 };
+export const getAllPosts = async () => {
+  try {
+    const posts = await databases.listDocuments(
+      config.databaseId!,
+      config.videoCollectionId!
+    );
+
+    return posts;
+  } catch (error: any) {
+    throw new Error(error);
+  }
+};
+export const getLatsPosts = async () => {
+  try {
+    const posts = await databases.listDocuments(
+      config.databaseId!,
+      config.videoCollectionId!,
+      [Query.orderDesc("$createdAt"), Query.limit(7)]
+    );
+
+    return posts;
+  } catch (error: any) {
+    throw new Error(error);
+  }
+};
