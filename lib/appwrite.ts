@@ -108,3 +108,16 @@ export const getLatsPosts = async () => {
     throw new Error(error);
   }
 };
+export const searchPosts = async (query: string) => {
+  try {
+    const posts = await databases.listDocuments(
+      config.databaseId!,
+      config.videoCollectionId!,
+      [Query.search("title", query)]
+    );
+    return posts;
+  } catch (error: any) {
+    console.log(error);
+    throw new Error(error);
+  }
+};
