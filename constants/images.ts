@@ -5,5 +5,14 @@ const path = require("../assets/images/path.png");
 const logo = require("../assets/images/logo.png");
 const logoSmall = require("../assets/images/logo-small.png");
 const empty = require("../assets/images/empty.png");
-
-export default { profile, thumbnail, cards, path, logo, logoSmall, empty };
+const back = require("../assets/images/back-arrow.png");
+export default {
+  profile,
+  thumbnail,
+  cards,
+  path,
+  logo,
+  logoSmall,
+  empty,
+  back,
+};

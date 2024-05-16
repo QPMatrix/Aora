@@ -1,4 +1,11 @@
-import { View, Text, FlatList, Image, RefreshControl } from "react-native";
+import {
+  View,
+  Text,
+  FlatList,
+  Image,
+  RefreshControl,
+  TouchableOpacity,
+} from "react-native";
 import React, { useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { images } from "@/constants";
@@ -8,7 +15,7 @@ import EmptyState from "@/components/empty-state";
 import useAppwrite from "@/lib/use-appwrite";
 import { searchPosts } from "@/lib/appwrite";
 import VideoCard from "@/components/video-card";
-import { useLocalSearchParams } from "expo-router";
+import { router, useLocalSearchParams } from "expo-router";
 
 const Search = () => {
   const { query } = useLocalSearchParams();
@@ -35,6 +42,16 @@ const Search = () => {
                   {query}
                 </Text>
               </View>
+              <TouchableOpacity
+                className="border-secondary-100 bg-secondary rounded-xl border-2"
+                onPress={() => router.replace("/")}
+              >
+                <Image
+                  source={images.back}
+                  className="w-9 h-10 "
+                  resizeMode="contain"
+                />
+              </TouchableOpacity>
             </View>
             <SearchInput
               initialQuery={
