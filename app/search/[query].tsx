@@ -8,7 +8,7 @@ import {
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { images } from "@/constants";
+import { icons, images } from "@/constants";
 import SearchInput from "@/components/serach-input";
 import Trending from "@/components/trending";
 import EmptyState from "@/components/empty-state";
@@ -48,7 +48,7 @@ const Search = () => {
               >
                 <Image
                   source={images.back}
-                  className="w-9 h-10 "
+                  className="w-8 h-8 "
                   resizeMode="contain"
                 />
               </TouchableOpacity>
