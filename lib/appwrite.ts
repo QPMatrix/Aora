@@ -121,3 +121,24 @@ export const searchPosts = async (query: string) => {
     throw new Error(error);
   }
 };
+export const getUserPost = async (userId: string) => {
+  try {
+    const posts = await databases.listDocuments(
+      config.databaseId!,
+      config.videoCollectionId!,
+      [Query.equal("creator", userId)]
+    );
+    return posts;
+  } catch (error: any) {
+    console.log(error);
+    throw new Error(error);
+  }
+};
+export const singOut = async () => {
+  try {
+    const session = await account.deleteSession("current");
+    return session;
+  } catch (error: any) {
+    return new Error(error.message);
+  }
+};

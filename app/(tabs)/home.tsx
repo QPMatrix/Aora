@@ -8,8 +8,11 @@ import EmptyState from "@/components/empty-state";
 import useAppwrite from "@/lib/use-appwrite";
 import { getAllPosts, getLatsPosts } from "@/lib/appwrite";
 import VideoCard from "@/components/video-card";
+import { useGlobalContext } from "@/context/global-context";
 
 const Home = () => {
+  const { user } = useGlobalContext();
+
   const { data: posts, refetch } = useAppwrite(getAllPosts);
   const { data: latestPosts } = useAppwrite(getLatsPosts);
   const [refreshing, setRefreshing] = useState(false);
@@ -30,10 +33,10 @@ const Home = () => {
             <View className="justify-between items-start flex-row mb-6">
               <View>
                 <Text className=" font-pmedium text-sm text-gray-100">
-                  Welcome Back
+                  Welcome Back,
                 </Text>
                 <Text className="text-2xl font-psemibold text-white">
-                  QPMatrix
+                  {user?.username}
                 </Text>
               </View>
               <View className="mt-1.5">
