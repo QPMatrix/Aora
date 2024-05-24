@@ -1,7 +1,7 @@
 <div align="center">
   <br />
     <a href="www.qpmatrix.tech" target="_blank">
-      <img src="./screenshoots/QPMatrix-Logo.svg" alt="QPMatrix Logo" width="250px" height="250px">
+      <img src="./screenshoots/QPMatrix-Logo.svg" alt="QPMatrix Logo" width="30%" height="30%">
     </a>
   <br />
 
@@ -193,31 +193,31 @@ if (!fontsLoaded && !error) {
 <table>
   <tr>
     <td align="center">
-      <img src="./screenshoots/ios/on-boarding.svg" width="250px;" alt="Screen 1"/><br />
+      <img src="./screenshoots/ios/on-boarding.svg" width="30%;" alt="Screen 1"/><br />
       <sub><b>on boarding</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/ios/log-in.svg" width="250px;" alt="Screen 2"/><br />
+      <img src="./screenshoots/ios/log-in.svg" width="30%;" alt="Screen 2"/><br />
       <sub><b>log in</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/ios/sign-up.svg" width="250px;" alt="Screen 3"/><br />
+      <img src="./screenshoots/ios/sign-up.svg" width="30%;" alt="Screen 3"/><br />
       <sub><b>sign up</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/ios/home.svg" width="250px;" alt="Screen 4"/><br />
+      <img src="./screenshoots/ios/home.svg" width="30%;" alt="Screen 4"/><br />
       <sub><b>home</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/ios/serach.svg" width="250px;" alt="Screen 5"/><br />
+      <img src="./screenshoots/ios/serach.svg" width="30%;" alt="Screen 5"/><br />
       <sub><b>search</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/ios/upload.svg" width="250px;" alt="Screen 6"/><br />
+      <img src="./screenshoots/ios/upload.svg" width="30%;" alt="Screen 6"/><br />
       <sub><b>upload</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/ios/profile.svg" width="250px;" alt="Screen 7"/><br />
+      <img src="./screenshoots/ios/profile.svg" width="30%;" alt="Screen 7"/><br />
       <sub><b>profile</b></sub>
     </td>
  
@@ -229,27 +229,27 @@ if (!fontsLoaded && !error) {
 <table>
   <tr>
     <td align="center">
-      <img src="./screenshoots/android/on-boarding.svg" width="250px;" alt="Screen 1"/><br />
+      <img src="./screenshoots/android/on-boarding.svg" width="30%;" alt="Screen 1"/><br />
       <sub><b>on boarding</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/android/log-in.svg" width="250px;" alt="Screen 2"/><br />
+      <img src="./screenshoots/android/log-in.svg" width="30%;" alt="Screen 2"/><br />
       <sub><b>log in</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/android/sign-up.svg" width="250px;" alt="Screen 3"/><br />
+      <img src="./screenshoots/android/sign-up.svg" width="30%;" alt="Screen 3"/><br />
       <sub><b>sign up</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/android/home.svg" width="250px;" alt="Screen 4"/><br />
+      <img src="./screenshoots/android/home.svg" width="30%;" alt="Screen 4"/><br />
       <sub><b>home</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/android/serach.svg" width="250px;" alt="Screen 5"/><br />
+      <img src="./screenshoots/android/serach.svg" width="30%;" alt="Screen 5"/><br />
       <sub><b>search</b></sub>
     </td>
     <td align="center">
-      <img src="./screenshoots/android/upload.svg" width="250px;" alt="Screen 6"/><br />
+      <img src="./screenshoots/android/upload.svg" width="30%;" alt="Screen 6"/><br />
       <sub><b>upload</b></sub>
     </td>
  
