@@ -23,7 +23,7 @@
 3. 🔋 [Features](#features)
 4. 🤸 [Quick Start](#quick-start)
 5. 🕸️ [Snippets](#snippets)
-6. 🚀  [Screens](#-screens)
+6. 🚀  [Screens](#-screenshots)
 
 
 
@@ -186,76 +186,31 @@ if (!fontsLoaded && !error) {
 
 
 
-## <a name="screen-shoots">🚀 Screens</a>
+## <a name="screenshots">🚀 Screenshots</a>
 
 ### iOS Screens
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="./screenshoots/ios/on-boarding.svg" width="30%;" alt="Screen 1"/><br />
-      <sub><b>on boarding</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/ios/log-in.svg" width="30%;" alt="Screen 2"/><br />
-      <sub><b>log in</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/ios/sign-up.svg" width="30%;" alt="Screen 3"/><br />
-      <sub><b>sign up</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/ios/home.svg" width="30%;" alt="Screen 4"/><br />
-      <sub><b>home</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/ios/serach.svg" width="30%;" alt="Screen 5"/><br />
-      <sub><b>search</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/ios/upload.svg" width="30%;" alt="Screen 6"/><br />
-      <sub><b>upload</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/ios/profile.svg" width="30%;" alt="Screen 7"/><br />
-      <sub><b>profile</b></sub>
-    </td>
- 
-  </tr>
-</table>
+ <div style="display: flex; flex-direction: 'row';">
+<img src="./screenshots/ios/home.svg" width=30%>
+<img src="./screenshots/ios/log-in.svg" width=30%>
+<img src="./screenshots/ios/on-boarding.svg" width=30%>
+<img src="./screenshots/ios/profile.svg" width=30%>
+<img src="./screenshots/ios/serach.svg" width=30%>
+<img src="./screenshots/ios/sign-up.svg" width=30%>
+<img src="./screenshots/ios/upload.svg" width=30%>
+</div>
 
 ### Android Screens
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="./screenshoots/android/on-boarding.svg" width="30%;" alt="Screen 1"/><br />
-      <sub><b>on boarding</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/android/log-in.svg" width="30%;" alt="Screen 2"/><br />
-      <sub><b>log in</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/android/sign-up.svg" width="30%;" alt="Screen 3"/><br />
-      <sub><b>sign up</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/android/home.svg" width="30%;" alt="Screen 4"/><br />
-      <sub><b>home</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/android/serach.svg" width="30%;" alt="Screen 5"/><br />
-      <sub><b>search</b></sub>
-    </td>
-    <td align="center">
-      <img src="./screenshoots/android/upload.svg" width="30%;" alt="Screen 6"/><br />
-      <sub><b>upload</b></sub>
-    </td>
- 
- 
-  </tr>
-</table>
+ <div style="display: flex; flex-direction: 'row';">
+<img src="./screenshots/android/home.svg" width=30%>
+<img src="./screenshots/android/log-in.svg" width=30%>
+<img src="./screenshots/android/on-boarding.svg" width=30%>
+<img src="./screenshots/android/profile.svg" width=30%>
+<img src="./screenshots/android/serach.svg" width=30%>
+<img src="./screenshots/android/sign-up.svg" width=30%>
+
+</div>
   
 
 
