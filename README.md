@@ -191,24 +191,24 @@ if (!fontsLoaded && !error) {
 ### iOS Screens
 
  <div style="display: flex; flex-direction: 'row';">
-<img src="./screenshots/ios/home.svg" width=50%>
-<img src="./screenshots/ios/log-in.svg" width=50%>
-<img src="./screenshots/ios/on-boarding.svg" width=50%>
-<img src="./screenshots/ios/profile.svg" width=50%>
-<img src="./screenshots/ios/serach.svg" width=50%>
-<img src="./screenshots/ios/sign-up.svg" width=50%>
-<img src="./screenshots/ios/upload.svg" width=50%>
+<img src="./screenshots/ios/home.svg" width=40%>
+<img src="./screenshots/ios/log-in.svg" width=40%>
+<img src="./screenshots/ios/on-boarding.svg" width=40%>
+<img src="./screenshots/ios/profile.svg" width=40%>
+<img src="./screenshots/ios/serach.svg" width=40%>
+<img src="./screenshots/ios/sign-up.svg" width=40%>
+<img src="./screenshots/ios/upload.svg" width=40%>
 </div>
 
 ### Android Screens
 
  <div style="display: flex; flex-direction: 'row';">
-<img src="./screenshots/android/home.svg" width=50%>
-<img src="./screenshots/android/log-in.svg" width=50%>
-<img src="./screenshots/android/on-boarding.svg" width=50%>
-<img src="./screenshots/android/profile.svg" width=50%>
-<img src="./screenshots/android/serach.svg" width=50%>
-<img src="./screenshots/android/sign-up.svg" width=50%>
+<img src="./screenshots/android/home.svg" width=40%>
+<img src="./screenshots/android/log-in.svg" width=40%>
+<img src="./screenshots/android/on-boarding.svg" width=40%>
+<img src="./screenshots/android/profile.svg" width=40%>
+<img src="./screenshots/android/serach.svg" width=40%>
+<img src="./screenshots/android/sign-up.svg" width=40%>
 
 </div>
   
